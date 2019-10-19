@@ -441,6 +441,10 @@ top: -8px;
   width: 273px;
   position: relative;
 }
+.member-thumb img {
+  width: 303px;
+  height: 273px;
+}
 
 .member-thumb .overlay h5 {
   font-size: 16px;
@@ -479,17 +483,6 @@ top: -8px;
   color: #0eb493;
 }
 
-.team-member .social-links {
-  margin-top: 24%;
-}
-
-.team-member .social-links li a {
-  background-color: #0d7c67;
-  color: #fff;
-  height: 42px;
-  padding: 10px 0 0;
-  width: 42px;
-}
 
 
 /*=========================================
