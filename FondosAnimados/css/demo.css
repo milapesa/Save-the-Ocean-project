@@ -1,0 +1,154 @@
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+	background: #fff;
+	color: #383a3c;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.25;
+	font-family: 'Raleway', Calibri, Arial, sans-serif;
+}
+nav{
+    position: absolute;
+    z-index: 2;
+   
+}
+
+a, button {
+	outline: none;
+background: white;     
+}
+
+a {
+	color: #566473;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #34495e;
+}
+
+
+
+p.ref {
+	text-align: center;
+	padding: 2em 1em;
+}
+
+/* Header */
+.header {
+	margin: 10px auto;
+	padding: 1px;
+	text-align: center;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    margin-top: 3px;
+}
+
+.header h1 {
+	margin: 0;
+	font-size: 4.5em;
+	line-height: 1;
+	font-weight: 200;
+    color: white;
+}
+
+.header h1 span {
+	display: block;
+	font-size: 36%;
+	color: white;
+	line-height: 2.4;
+    text-align: center;
+    margin-top: 400px;
+}
+
+/* To Navigation Style */
+.top {
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.69em;
+	text-align: center;
+	padding: 3em 0;
+}
+
+.top a {
+	display: inline-block;
+	padding: 1.5em;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+.icon:before {
+	margin: 0 4px;
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 1;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.icon-drop:before {
+	content: "\e001";
+}
+
+.icon-prev:before {
+	content: "\e004";
+}
+
+/* Demo Buttons Style */
+.demos {/*nav*/
+	padding-top: 1em;
+	font-size: 0.8em;
+   
+}
+nav {
+  top: 520px; left: 480px; right: 0;
+  height: 20px;
+}
+
+.demos a {
+	display: inline-block;
+	margin: 0.35em 0.1em;
+	padding: 0.5em 1.2em;
+	outline: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	border-radius: 2px;
+	font-size: 110%;
+	border: 2px solid transparent;
+}
+
+.demos a:hover,
+.demos a.current-demo {
+	border-color: #383a3c;
+}
+
+.demos h3 {
+	margin: 0;
+	padding: 1em 0 0.5em 0;
+	font-size: 0.9em;
+	float: left;
+	min-width: 90px;
+	clear: left;
+}
+
+.demos div:not(:first-child) h3 {
+	padding-top: 2em;
+}
+
+}
+
+@media screen and (max-width: 40em) {
+
+	.header h1 {
+		font-size: 2.5em;
+	}
+}
