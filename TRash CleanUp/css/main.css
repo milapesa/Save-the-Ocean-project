@@ -164,12 +164,18 @@ body > section,
 	border-top: 1px solid transparent;
 }
 
+/* esto cambia el tamaño del logo principal */
+.navbar-header img{
+    width: 200px;
+    height: 50px;
+}
+
 .navbar-nav li a.current,
 .navbar-nav li a:focus,
 .navbar-nav li a:hover {
 	background-color: transparent;
 	border-top: 1px solid #32B0EE;
-	color: #fff;
+  color: #fff;
 }
 
 
@@ -194,22 +200,33 @@ body > section,
 .carousel-caption h2 {
   font-size: 62px;
   font-weight: 300;
+  color: #46c56e	;
+  font-feature-settings: "ccmp";
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .carousel-caption h2 span {
   font-weight: 800;
+  color:  #46c56e;
+  font-feature-settings: "ccmp";
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .carousel-caption h3 {
   font-size: 48px;
   font-weight: 300;
   margin: 6px 0 20px;
+  color:  #46c56e;
+  font-feature-settings: "ccmp";
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .carousel-caption p {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 300;
+  color: #0098fd;
+  font-size: 20px;
+  font-weight: 3000;
+  font-feature-settings: "ccmp";
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .carousel-caption p:before,
