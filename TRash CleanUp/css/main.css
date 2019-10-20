@@ -638,6 +638,15 @@ label.error {
 .footer-social {
   margin-top: 17px;
 }
+.footer-single img {
+  width: 249px;
+  height:100px;
+}
+
+
+input .subscribe {
+  font-size: 2px;
+}
 
 .footer-social li a {
   color: #cdd2d6;
